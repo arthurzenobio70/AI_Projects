@@ -19,12 +19,6 @@
 
 O Avaliador de Redação com IA é uma ferramenta em desenvolvimento que visa automatizar o processo de avaliação de redações utilizando modelos de linguagem natural (LLMs). O projeto está em seus estágios iniciais, focando na estruturação da arquitetura base e implementação das funcionalidades principais.
 
-## 📊 Status do Projeto
-
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento%20Inicial-yellow)
-
-O projeto encontra-se em fase inicial de desenvolvimento, com a estrutura base implementada e principais funcionalidades em construção.
-
 ### Funcionalidades Atuais
 - ✅ Estrutura base do projeto
 - ✅ Configuração inicial dos agentes de IA
