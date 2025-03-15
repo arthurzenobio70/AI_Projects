@@ -1,7 +1,6 @@
 import os
 
 # API Configuration
-OPENAI_API_KEY = "sk-51438930b5cc469683539cd7c1c6a350"
 
 # Model Configuration
 MODEL_NAME = "deepseek-chat"
