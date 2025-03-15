@@ -23,11 +23,9 @@ O Avaliador de Redação com IA é uma ferramenta em desenvolvimento que visa au
 - ✅ Estrutura base do projeto
 - ✅ Configuração inicial dos agentes de IA
 - ✅ Esqueleto da interface web
-
-### Funcionalidades em Desenvolvimento
-- 🔄 Integração com LLMs
-- 🔄 Sistema de avaliação básico
-- 🔄 Interface web funcional
+- ✅ Integração com LLMs
+- ✅ Sistema de avaliação básico
+- ✅ Interface web funcional
 
 ## 📁 Estrutura do Projeto
 
