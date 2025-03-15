@@ -80,7 +80,7 @@ poetry run python main.py
 ### Core
 - [Python](https://www.python.org/) - Linguagem principal
 - [LangChain](https://langchain.com/) - Framework para LLMs
-- [OpenAI GPT](https://openai.com/) - Modelo de linguagem
+- [DeepSeek](https://deepseek.com/) - Modelo de linguagem
 
 ### Frontend
 - [Streamlit](https://streamlit.io/) - Interface web
