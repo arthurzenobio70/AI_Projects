@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "avaliador-de-redacao"
+version = "0.1.0"
+description = "Sistema de avaliação de redações utilizando IA"
+authors = ["Seu Nome <seu.email@exemplo.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "src"}]
+homepage = "https://github.com/seu-usuario/avaliador_de_redacao"
+repository = "https://github.com/seu-usuario/avaliador_de_redacao"
+keywords = ["ia", "educação", "avaliação", "redação"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Topic :: Education",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<3.12"
+openai = "^1.0.0"
+python-dotenv = "^1.0.0"
+streamlit = "^1.32.0"
+langchain-community = "^0.3.19"
+langchain-openai = "^0.3.8"
+langchain-core = "^0.3.44"
+langgraph = "^0.3.9"
+langchain = "^0.3.20"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+pytest-cov = "^4.0.0"
+black = "^22.0.0"
+isort = "^5.0.0"
+flake8 = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+line_length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=src --cov-report=term-missing" 
